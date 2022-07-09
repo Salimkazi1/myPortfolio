@@ -22,7 +22,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "fierce-forest-56006" #Must be unique in Heroku
+          heroku_app_name: "my-portfolio-salim" #Must be unique in Heroku
           heroku_email: "salim.kazi.aoul@hotmail.fr"
           branch: main
           dontuseforce: true
