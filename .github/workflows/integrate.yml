@@ -24,6 +24,8 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fierce-forest-56006" #Must be unique in Heroku
           heroku_email: "salim.kazi.aoul@hotmail.fr"
+          branch: main
+          dontuseforce: true
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
